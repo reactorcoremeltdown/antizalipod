@@ -9,6 +9,7 @@ apps: connect
 	adb install apks/filemanager.apk
 	adb install apks/vanillaplus.apk
 	adb install apks/voice.apk
+	adb install apks/unlauncher.apk
 
 data: apps
 	adb restore unlauncher/data.backup
